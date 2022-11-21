@@ -1,0 +1,35 @@
+.search{
+  min-height: 100vh;
+  width: 100%;
+}
+
+.searchInput{
+margin: 1rem auto;
+display: flex;
+justify-content: center;
+color: white;
+}
+
+.searchInput input{
+  background-color:#f1a1fa ;
+  border: 2px solid #2b0030;
+  padding: 0.5rem 1rem;
+  color: white;
+  font-size: 1.1rem;
+  border-radius: 10px;
+}
+.searchInput input:hover,
+.searchInput input:focus{
+  border-color: #2b0030;
+}
+
+.searchInput input::placeholder{
+  color: #fff;
+}
+
+@media(min-width: 1250px){
+  .searchInput input{
+    font-size: 1.7rem;
+  }
+}
+
